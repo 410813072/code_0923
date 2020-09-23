@@ -14,6 +14,7 @@ basic.showString("b")
 basic.clearScreen()
 basic.showArrow(ArrowNames.NorthWest)
 basic.pause(500)
+music.rest(music.beat(BeatFraction.Whole))
 basic.forever(function () {
 	
 })
