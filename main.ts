@@ -9,6 +9,11 @@ for (let index = 0; index < 4; index++) {
     basic.clearScreen()
     basic.showIcon(IconNames.Butterfly)
 }
+continue;
+basic.showString("b")
+basic.clearScreen()
+basic.showArrow(ArrowNames.NorthWest)
+basic.pause(500)
 basic.forever(function () {
 	
 })
